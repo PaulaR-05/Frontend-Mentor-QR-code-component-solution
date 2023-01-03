@@ -24,83 +24,31 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link href="style.css" rel="stylesheet" />
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        margin-top: 15px;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-
-      body {
-        width: 100%;
-        font-family: "Outfit", sans-serif;
-        background-color: hsl(212, 45%, 89%);
-        min-height: 100vh;
-        display: flexbox;
-        align-items: center;
-        font-size: 15px;
-      }
-
-      #container-info {
-        max-width: 375px;
-        margin: 0 auto;
-      }
-
-      .card-code {
-        background-color: #fff;
-        border-radius: 15px;
-        padding: 18px;
-        text-align: center;
-        margin: 0 1rem;
-      }
-
-      img {
-        width: 100%;
-        border-radius: 15px;
-      }
-
-      .text-code {
-        padding: 0px 13.397px;
-      }
-
-      .text-code {
-        padding-bottom: 2px;
-        color: hsl(218, 44%, 22%);
-      }
-
-      .text-code p {
-        color: hsl(219, 13%, 55%);
-      }
-    </style>
   </head>
   <body>
-    <div id="container-info">
-      <div class="card-code">
+    <main id="container-info">
+      <h1 class="sr-only">QR Card Component</h1>
+      <article class="card-code">
         <img
           src="images/image-qr-code.png"
-          alt="QR code to visit Frontend Mentor"
+          alt="QR code to frontendmentor.io"
         />
-        <div class="text-code">
+        <section class="text-code">
           <h2>Improve your front-end skills by building projects</h2>
           <p>
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
           </p>
-        </div>
-      </div>
-    </div>
-    <div class="attribution">
+        </section>
+      </article>
+    </main>
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Gabriela de Paula</a>.
-    </div>
+      >. Coded by <a href="https://github.com/PaulaR-05">Gabriela de Paula</a>.
+    </footer>
   </body>
 </html>

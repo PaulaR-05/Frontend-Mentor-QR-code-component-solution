@@ -1,0 +1,58 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  font-size: 15px;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+#container-info {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.card-code {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 18px;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.text-code {
+  padding: 0px 13.397px;
+}
+
+.text-code {
+  padding-bottom: 2px;
+  color: hsl(218, 44%, 22%);
+}
+
+.text-code p {
+  color: hsl(219, 13%, 55%);
+}
